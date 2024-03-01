@@ -1,0 +1,347 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style/index.style.css">
+    <link rel="stylesheet" href="uikit/css/uikit.min.css">
+    <script src="app/jquery-3.7.1.min.js"></script>
+    <script src="uikit/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header uk-parallax='bgy: -100'>
+        <div class="head_menu">
+            <img src="icons/Logo.svg" alt="logo" srcset="">
+           <nav>
+            <ul>
+                <li class="selected_menu_item"><a href="" class="decorate_line">Главная</a></li>
+                <li><a href="" class="decorate_line">Услуги</a></li>
+                <li><a href="" class="decorate_line">Цены</a></li>
+                <li><a href="" class="decorate_line">Блог</a></li>
+            </ul>
+           </nav>
+           <div class="decorate_line"><a href="tel:+380682889957"><img src="icons/phone.png" class="phone_icon">+380682889957</a></div>
+        </div>  
+        <section class="header_offer" uk-parallax="start: 100vh; end: 50vh; opacity: 1,0;y: -50"> 
+            <div class="timer"> 
+                <span class="rubik_regular" id="header_timer_day">
+                    0д
+                </span>
+                <span class="rubik_regular" id="header_timer_hour">
+                    0ч
+                </span>
+                <span class="rubik_regular" id="header_timer_minute">
+                    0м
+                </span>
+            </div>
+            <h1 class="rubik_light">
+                Скидка <span>40%</span> на чистку и ремонт системы охлаждения
+            </h1>
+            <button class="rubik_regular">
+                Заказать консультацию
+            </button>
+        </section>
+    </header>
+    <main>
+        <article class="our-services ">
+            <div class="article-our-service-bg">
+                <img src="icons/laptop.png" class="laptop-bg-image" alt="">
+                <img src="icons/phone (1).png" class="phone-bg-image" alt="">
+                <img src="icons/television.png" class="television-bg-image" alt="">
+                <img src="icons/repair (2).png" class="repair-bg-image" alt="">
+            </div>
+            <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"  uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; end: 60vh + 50%;">
+                Наши услуги
+            </h1>
+            <section class="left-section" uk-parallax="y: 100,0; scale: 0.9,1; end: 50vh + 50%;">
+                <img src="icons/repair.png" style="width: 9.72vw; height: 9.72vw">
+                <div>
+                    <h2>
+                        Ремонт мобильных телефонов
+                    </h2>
+                    <p>
+                        Аппаратный и програмный ремонт смартфонов
+                    </p>
+                    <a class="decorate_line" href="">Подробнее</a>
+                </div>
+            </section>
+            <section class="right-section" uk-parallax="y: 100,0; scale: 0.9,1; end: 50vh + 50%;">
+                <img src="icons/machine-repair.png" style="width: 9.72vw; height: 9.72vw">
+                <div>
+                    <h2>
+                        Ремонт компьютеров, ноутбуков
+                    </h2>
+                    <p>
+                        Переустановка Windows, замена деталей и т.д.
+                    </p>
+                    <a class="decorate_line" href="">Подробнее</a>
+                </div>
+            </section>
+            <section class="left-section" uk-parallax="y: 100,0; scale: 0.9,1; end: 30vh + 50%;">
+                <img src="icons/tv.png" style="width: 9.72vw; height: 9.72vw; opacity: 0.6;">
+                <div>
+                    <h2>
+                        Ремонт телевизоров
+                    </h2>
+                    <p>
+                        Замена матрицы, ремонт материнской платы и т.д.
+                    </p>
+                    <a class="decorate_line" href="">Подробнее</a>
+                </div>
+            </section>
+            <section class="right-section" uk-parallax="y: 100,0; scale: 0.9,1; end: 50vh + 50%;">
+                <img src="icons/apple.png" style="width: 9.72vw; height: 9.72vw; opacity: 0.6;">
+                <div>
+                    <h2>
+                        Ремонт техники Apple                    
+                    </h2>
+                    <p>
+                        Замена экрана, замена аккумулятора, перепрошивка и т.д.
+                    </p>
+                    <a class="decorate_line" href="">Подробнее</a>
+                </div>
+            </section>
+        </article>
+        <article class="steps">
+            
+            <img src="img/StockSnap_DMY4V8V5W9.jpg" alt="">
+            <h1 class="uk-text-center">
+                Этапы работы
+            </h1>
+            
+            <div class="steps-blocks">
+                <section class="first-step">
+                    <img src="icons/Vector 1.png" alt="">
+                    <h2><span>1</span>Телефонная консультация</h2>
+                </section>
+                <section class="second-step">
+                    <img src="icons/Vector 2.png" alt="">
+                    <h2><span>2</span>Согласование цены</h2>
+                </section>
+                <section class="third-step">
+                    <img src="icons/Vector 3.png" alt="">
+                    <h2><span>3</span>Приезд мастера</h2>
+                </section>
+                <section class="four-step">
+                    <img src="icons/Vector 4.png" alt="">
+                    <h2><span>4</span>Выполнение работы</h2>
+                </section>
+                <section class="five-step">
+                    <h2><span>5</span>Заполнение чека, расчёт с мастером</h2>
+                </section>
+                
+            </div>
+            
+        </article>
+        <article class="your-problem">
+            <h1 class="uk-text-center"  uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; end: 60vh + 50%;">
+                Частые поломки
+            </h1>
+            <div class="your-problem-buttons uk-text-center" uk-parallax="y: 100,0; scale: 0.9,1; end: 50vh + 50%;">
+                <button id="your-problem-button-phone">
+                    Смартфон
+                </button>
+                <button id="your-problem-button-laptop">
+                    Ноутбук
+                </button>
+                <button id="your-problem-button-apple">
+                    Техника Apple
+                </button>
+                <button id="your-problem-button-tv">
+                    Телевизор
+                </button>
+                <button id="your-problem-button-pc">
+                    Персональный компьютер
+                </button>
+            </div>
+            <div class="your-problem-div" style="min-height: 20vw;">
+                <!-- <section  class="your-problem-section-not-image uk-text-center">
+                <button id="your-problem-section-not-image-child">
+                    Нет изображения
+                </button>
+                <div class="uk-animation-slide-top" >
+                    <div class="your-problem-section-repair">
+                        <h2>
+                            Как ремонтируется?
+                        </h2>
+                        <p>
+                            Наши опытные техники проведут анализ неисправности в системе видео и осуществят ремонт неисправных компонентов, чтобы восстановить яркое и четкое изображение.
+                        </p>
+                    </div>
+                    <div class="your-problem-section-prevent">
+                        <h2>
+                            Как предотвратить?
+                        </h2>
+                        <p>
+                            Проверяйте кабели подключения и обновляйте программное обеспечение телевизора. Избегайте перегрева устройства, обеспечивая достаточную вентиляцию.
+                        </p>
+                    </div>
+                </div>
+                
+            </section> -->
+            </div>
+            
+        </article>
+
+        <article class="blog">
+            <h1 class="uk-text-center">
+                Вам может быть интересно
+            </h1>
+            <div class="blog-areas">
+                <section>
+                    <h2 >
+                        Частые поломки телевизоров и пути их устранения
+                    </h2>
+                    <p>
+                        Современные телевизоры, будучи сложными электронными устройствами, время от времени подвергаются различным поломкам. В некоторых случаях вы можете попробовать справиться с проблемой самостоятельно, но, конечно же, всегда есть ситуации, когда лучше обратиться за профессиональной помощью.
+                    </p>
+                    <a href="" class="decorate_line">Подробнее</a>
+                </section>
+                <section>
+                    <h2 >
+                        Проблемы с зарядкой MacBook: Советы по самостоятельному ремонту
+                    </h2>
+                    <p>
+                        Владельцы MacBook иногда сталкиваются с неприятной ситуацией, когда их устройство не заряжается. В этой статье рассмотрим частые проблемы с зарядкой MacBook и поделимся советами, как можно самостоятельно попытаться решить проблему, а также определим момент, когда необходимо обратиться за профессиональной помощью.
+                    </p>
+                    <a href="" class="decorate_line">Подробнее</a>
+                </section>
+                <section>
+                    <h2 >
+                        Перегрев и автоматическое выключение ноутбука                    
+                    </h2>
+                    <p>
+                        Один из распространенных недугов, с которым сталкиваются владельцы ноутбуков, – это перегрев и автоматическое выключение устройства. В этой статье мы рассмотрим причины и способы решения этой проблемы на своем, а также определим момент, когда профессиональная помощь мастера станет неотложной.
+                    </p>
+                    <a href="" class="decorate_line">Подробнее</a>
+                </section>
+            </div>
+
+        </article>
+        <article class="quiz">
+            <h1 class="uk-text-center">
+                Расчитайте стоимость ремонта <span>онлайн</span>
+            </h1>
+            <div>
+                <form id="repairForm" class="repair-form">
+                    <div class="question" id="question1">
+                        <h2>Выберите устройство, которое требует ремонта:</h2>
+                             <div>
+                                <div><input class="uk-radio" type="radio" id="repar-form-pc-id" name="choose-your-device"><label for="repar-form-pc-id">Компьютер</label></div>
+                                <div><input class="uk-radio" type="radio" id="repar-form-laptop-id" name="choose-your-device"><label for="repar-form-laptop-id">Нотбук</label></div>
+                                <div><input class="uk-radio" type="radio" id="repar-form-smartphone-id" name="choose-your-device"><label for="repar-form-smartphone-id">Телефон</label></div>
+                                <div><input class="uk-radio" type="radio" id="repar-form-tv-id" name="choose-your-device"><label for="repar-form-tv-id">Телевизор</label></div>
+                            </div>
+                        <button class="uk-button" type="button" onclick="nextQuestion(2)">Далее</button>
+                    </div>
+            
+                    <div class="question" id="question2" style="display: none;">
+                        <h2>Тип поломки:</h2>
+                        <div>
+                            <div><input class="uk-radio" type="radio" id="repar-form-hardware-problem-id" name="choose-your-problem"><label for="repar-form-hardware-problem-id">Проблемы с железом</label></div>
+                            <div><input class="uk-radio" type="radio" id="repar-form-software-problem-id" name="choose-your-problem"><label for="repar-form-software-problem-id">Проблемы с программным обеспечением</label></div>
+                            <div><input class="uk-radio" type="radio" id="repar-form-mechanic-problem-id" name="choose-your-problem"><label for="repar-form-mechanic-problem-id">Механические повреждения</label></div>
+                            <div><input class="uk-radio" type="radio" id="repar-form-other-problem-id" name="choose-your-problem"><label for="repar-form-other-problem-id">Другое</label></div>
+                        </div>
+                        <button class="uk-button"  type="button" onclick="nextQuestion(3)">Далее</button>
+                    </div>
+            
+                    <!-- Добавьте аналогичные блоки для остальных вопросов -->
+            
+                    <div class="question" id="question3" style="display: none;">
+                       <h2>Опишите проблему подробнее (если возможно):</h2>
+                        <input class="uk-input" type="text" id="issueDetails" name="issueDetails">
+                        <button class="uk-button"  type="button" onclick="nextQuestion(4)">Далее</button>
+                    </div>
+
+                    <div class="question" id="question4" style="display: none;">
+                        <h2>Марка и модель устройства</h2>
+                        <input class="uk-input" type="text" id="deviceModel" name="deviceModel">
+                        <button class="uk-button"  type="button" onclick="nextQuestion(5)">Далее</button>
+                    </div>
+
+                    <div class="question" id="question5" style="display: none;">
+                        <h2>Срочность:</h2>
+                        <div>
+                            <div><input class="uk-radio" type="radio" id="repar-form-quikly-id" name="quikly-repair"><label for="repar-form-quikly-id">Срочно (в течение 24 часов)</label></div>
+                            <div><input class="uk-radio" type="radio" id="repar-form-one-week-id" name="quikly-repair"><label for="repar-form-one-week-id">В течение недели</label></div>
+                            <div><input class="uk-radio" type="radio" id="repar-form-not-quikly-id" name="quikly-repair"><label for="repar-form-not-quikly-id">Не срочно</label></div>
+                        </div>
+                        <button class="uk-button"  type="button" onclick="nextQuestion(6)">Далее</button>
+                    </div>
+
+                    <div class="question" id="question6" style="display: none;">
+                        <h2>Ваши контактные данные:</h2>
+                        <input class="uk-input" type="tel" id="repar-form-phone-client f-tel-phone" name="repar-form-phone-client" placeholder="+380 12 345 67 89" minlength="10" maxlength="13" >
+                        <button class="uk-button"  type="button" onclick="nextQuestion(7)">Далее</button>
+                    </div>
+            
+                    <!-- Добавьте аналогичные блоки для остальных вопросов -->
+            
+                    <!-- ... -->
+            
+                    <div class="question" id="question7" style="display: none;">
+                        <label for="additionalComments">Дополнительные комментарии или вопросы:</label>
+                        <textarea class="uk-textarea" id="additionalComments" name="additionalComments" rows="4"></textarea>
+                        <button class="uk-button" onclick="quizEnd()" type="button">Отправить</button>
+                    </div>
+                    <div id="success-form" style="display: none;">
+                        <img src="./icons/free-icon-check-mark-4300471.png" alt="">
+                        <h2>Ваша форма отрабатывается</h2>
+
+                    </div>
+                </form>
+                <form action="" class="form-contact" >
+                    <h2>
+                        Или закажите онлайн <span>кансультацию</span>
+                    </h2>
+                    <input class="uk-input" name="f-pib"  type="text" placeholder="ФИО" aria-label="ФИО" title="ФИО" minlength="2" pattern="^[\p{L}\s\-]{2,}$" required>
+                    <input class="uk-input" id="f-tel-phone" name="f-tel" type="tel" placeholder="+380 12 345 67 89" minlength="10" maxlength="13">
+
+                    <button class="uk-button"  type="submit">Заказать консультацию</button>
+                    
+                </form>
+            </div>
+
+            <section class="quiz-end ">
+                <div class="spin-wrappper">
+                    <div class="spinner">
+                    </div>
+                </div>
+                <h1>Расчёт итоговой цены</h1>
+            </section>
+            <section class="quiz-end complete" style="display: none;">
+                <h1>Расчёт готов</h1>
+                <img src="./icons/up-arrow.png" onclick="viewPrice()" alt="">
+            </section>
+            <section class="view-price" style="display: none;">
+                <h1>
+                    Цена
+                </h1>
+                <p>
+                    Базовая стоимость ремонтных работ: от <span id="span-price">0</span>грн <br>
+                    В течении часа мастер отправит вам более точную стоимость ремонта. Убедитесь что ввели корректный номер телефона, или измените его в поле ниже.
+                </p>
+                <input class="uk-input" id="v-p-tel-phone" name="f-tel" type="tel" placeholder="+380 12 345 67 89" minlength="10" maxlength="13">
+                <label class="change-phone-access" for="v-p-tel-phone" style="display: none;">Телефон изменён</label>
+                <button class="uk-button" onclick="changePhone()">Изменить</button>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="app/app.js"></script>
+</body>
+</html>
